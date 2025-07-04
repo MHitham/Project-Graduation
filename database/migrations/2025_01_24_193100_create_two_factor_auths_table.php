@@ -12,12 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('two_factor_auth', function (Blueprint $table) {
-            $table->id()->primary();
+            $table->id();
             $table->integer('code')->nullable(false);
             $table->unsignedBigInteger('user_id')->nullable(false);
             $table->timestamp('created_at')->nullable(false)->useCurrent();
-            $table->timestamp('expired_at')->nullable(false);
-            $table->foreign(columns: 'user_id')->references('id')->on('users')->noActionOnDelete();
+            $table->timestamp('expired_at')->nullable();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

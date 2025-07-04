@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('login_tokens', function (Blueprint $table) {
             $table->id();
-            $table->TEXT(column: 'token');
+            $table->text('token');
             $table->unsignedBigInteger('user_id')->unique()->nullable(false)->index();
             $table->timestamp('created_at')->nullable(false)->useCurrent();
-            $table->timestamp('expires_at')->nullable(false);
-            $table->foreign(columns: 'user_id')->references('id')->on('users')->noActionOnDelete();
+            $table->timestamp('expires_at')->nullable();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
