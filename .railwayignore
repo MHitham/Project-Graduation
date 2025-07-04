@@ -1,0 +1,14 @@
+# Don't ignore important files
+!.env
+!database/migrations/
+!config/
+!app/
+!routes/
+!public/
+!resources/
+!storage/
+!bootstrap/
+!vendor/
+!artisan
+!composer.json
+!composer.lock 
