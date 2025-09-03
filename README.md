@@ -11,19 +11,19 @@ Developed as a **Graduation Project – Faculty of Computers and Information, Ma
 
 ## 🚀 Features
 
-- 🤖 **AI Plant Disease Detection** – Upload a photo of a plant and get instant diagnosis.
-- ⏰ **Irrigation Reminder** – Notifications and scheduling for watering plants.
-- 🛒 **Agriculture Marketplace** – Buy and sell farming tools and supplies.
-- 🔍 **Plant Search** – Explore and learn about different plants.
+-   🤖 **AI Plant Disease Detection** – Upload a photo of a plant and get instant diagnosis.
+-   ⏰ **Irrigation Reminder** – Notifications and scheduling for watering plants.
+-   🛒 **Agriculture Marketplace** – Buy and sell farming tools and supplies.
+-   🔍 **Plant Search** – Explore and learn about different plants.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Backend**: PHP (Laravel Framework)
-- **Database**: MySQL
-- **Frontend**: HTML, CSS, JavaScript
-- **AI/ML**: Custom-trained model for plant disease detection
+-   **Backend**: PHP (Laravel Framework)
+-   **Database**: MySQL
+-   **Frontend**: HTML, CSS, JavaScript
+-   **AI/ML**: Custom-trained model for plant disease detection
 
 ---
 
@@ -37,8 +37,4 @@ Solo Project
 
 ## 📸 Screenshots
 
-Include images to showcase your app’s interface. Example:
-
-```markdown
 ![Homepage](screenshots/fasila.png)
-```
